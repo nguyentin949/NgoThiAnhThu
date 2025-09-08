@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thiệp Chúc Mừng Sinh Nhật</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="card-container">
+        <div class="birthday-card" id="birthdayCard">
+            <div class="card-front">
+                <h1 class="card-title">Chúc Mừng Sinh Nhật!</h1>
+                <p class="card-subtitle">Hãy mở ra nhé, Anh Thư...</p>
+                <div class="open-button" id="openButton">🎉 Mở Thiệp 🎉</div>
+            </div>
+            <div class="card-back">
+                <div class="content">
+                    <h2>Chúc mừng sinh nhật, Ngô Thị Anh Thư!</h2>
+                    <div class="poem">
+                        <p>Tháng năm rực rỡ nắng hồng,</p>
+                        <p>Anh Thư đón tuổi, ước mong tràn đầy.</p>
+                        <p>An lành, hạnh phúc đong đầy,</p>
+                        <p>Nụ cười rạng rỡ, tháng ngày thảnh thơi.</p>
+                        <p>Công danh sự nghiệp sáng ngời,</p>
+                        <p>Gia đình ấm áp, tuyệt vời tình thân.</p>
+                    </div>
+                    <img src="chithu.png" alt="Bánh sinh nhật" class="birthday-image">
+                </div>
+                <div class="music-player">
+                    <audio id="backgroundMusic">
+                        <source src="thayba.mp3" type="audio/mpeg">
+                        Trình duyệt của bạn không hỗ trợ phát nhạc.
+                    </audio>
+                    <button id="toggleMusicButton">🎶 Nhạc Nền 🎶</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
